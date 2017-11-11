@@ -1,0 +1,66 @@
+/*body - general*/
+
+body {
+    background-color: #eee;
+}
+
+/* site-content*/
+
+.site-content {
+    min-height: 2000px;
+}
+
+/* site-footer*/
+
+.site-footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+}
+
+.site-footer a {
+    border-radius: 20px;
+}
+
+/* scroll to top*/
+
+#scroll-to-top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+
+/* projects */
+.project {
+    border: 0.5px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    min-height: 100px;
+    padding: 5px;
+    font-size: 18px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+.project:hover {
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0em 0.3em 0em 0em #bdb9b9;
+    transition: box-shadow ease 0.5s;
+}
